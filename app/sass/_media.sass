@@ -1,0 +1,84 @@
+@import "vars"
+
+
+/*==========  Desktop First  ==========*/
+
++media-breakpoint-down(xl)
+	.paral
+		h2
+			font-size: 36px
+			line-height: 1.5em
+		h1
+			font-size: 40px
++media-breakpoint-down(lg)
++media-breakpoint-down(md)
+	.navbar-content 
+		position: absolute
+		top: 20px
+		right: 20px
+		left: 20px
++media-breakpoint-down(sm)
+	.paral
+		padding: 100px 0px 60px 0px
+	.navbar-collapse
+		position: relative
+		width: 100%
+		left: 0
+		top: 0
+		z-index: 9999
+	.phone
+		flex-direction: column
+	.navbar-toggler
+		position: relative
+		top: 0
+		left: 0
+		z-index: 9999
+	.navbar-content 
+		.navbar-nav
+			border-bottom-left-radius: 6px
+			border-bottom-right-radius: 6px
+			a
+				color: $dark
+				padding-right: 15px
+				padding-left: 15px
+				&:hover
+					background-color: $dark
+			li
+				border-bottom: 1px solid $dark
+				background-color: $light
++media-breakpoint-down(xs)
+	.paral
+		background-attachment: scroll
+		padding: 130px 0px 60px 0px
+		h1
+			font-size: 32px
+		h2
+			font-size: 25px
+		p
+			font-size: 12px
+
+
+/*==========  Mobile First  ==========*/
+
++media-breakpoint-up(xs)
++media-breakpoint-up(sm)
++media-breakpoint-up(md)
+	.navbar-content 
+		top: 30px
+		.dropdown-menu
+			a
+				color: #999
+				&:hover
+					background-color: $dark
++media-breakpoint-up(lg)
+	
++media-breakpoint-up(xl)		
+	.paral
+		h2
+			font-family: Montserrat-light
+			font-size: 48px
+			line-height: 1em
+		h1
+			font-family: Montserrat-ExtraBold
+			font-size: 100px
+			line-height: 0.9em
