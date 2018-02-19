@@ -1,9 +1,10 @@
 $default-font: "Montserrat", sans-serif;
-$second-font: "Montserrat-ExtraBold", sans-serif;
+$extrabold-font: "Montserrat-ExtraBold", sans-serif;
 $bold-font: "Montserrat-Bold", sans-serif;
 $theme-colors: (
-  "red": #ff1400,
   "secondary": #ff1400,
-  "dark": #182129
+  "dark": #182129,
+  "primary": #3d65b8,
+  "red": #dc3545,
 );   
 $link-hover-decoration: none;
