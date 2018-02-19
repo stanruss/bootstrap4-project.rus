@@ -11,6 +11,9 @@
 		h1
 			font-size: 3em
 +media-breakpoint-down(lg)
+	.international.container-fluid
+		img
+			max-width: 500px
 +media-breakpoint-down(md)
 	.navbar-content 
 		position: absolute
@@ -38,6 +41,8 @@
 		left: 0
 		z-index: 9999
 	.navbar-content 
+		.dropdown-menu a
+			font-size: .7em
 		.navbar-nav
 			border-bottom-left-radius: 6px
 			border-bottom-right-radius: 6px
@@ -73,7 +78,8 @@
 		top: 30px
 		.dropdown-menu
 			a
-				color: darken($light, 25%)
+				color: $dark
+				font-size: .7em
 				&:hover
 					background-color: $dark
 +media-breakpoint-up(lg)
