@@ -224,6 +224,26 @@ button.btn-sml.inverse
 			margin-left: 10px
 			margin-right: 5px
 			color: $secondary
+.email
+	input[type='text'], input[type='email'], textarea
+		background-color: transparent
+		hyphens: none
+		border: none
+		border-bottom: 1px solid #555
+		margin-top: 20px
+		border-radius: 0
+		&:focus
+			border-bottom: 1px solid $primary
+			transition: all .3s ease
+	::-webkit-input-placeholder 
+		color: $white
+	:-moz-placeholder 
+		color: $white
+	::-moz-placeholder 
+		color: $white
+	:-ms-input-placeholder
+		color: $white
+
 .container-fluid
 	max-width: 1200px
 
