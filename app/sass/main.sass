@@ -61,13 +61,10 @@ button.btn-sml.inverse
 	background-size: cover
 	background-position: center
 	h2
-		font-family: Montserrat-light
 		line-height: 1em
 	h1
-		font-family: Montserrat-ExtraBold
 		line-height: 0.9em
 	p
-		font-family: Montserrat-light
 		font-size: 1em
 
 .navbar-content 
@@ -82,10 +79,10 @@ button.btn-sml.inverse
 			font-size: 0.8em
 			font-family: Montserrat-Bold
 			&:hover
-				color: $red
+				color: $secondary
 				transition: .5s
 		li.active a
-			color: $red
+			color: $secondary
 
 .navbar-collapse
 	z-index: 999
@@ -126,12 +123,10 @@ button.btn-sml.inverse
 			font-size: 6em
 		h6
 			letter-spacing: 1.6px
-			font-family: Montserrat-SemiBold
 			font-size: 1em
 			margin-top: 34px
 		p
 			line-height: 28px
-			font-family: Montserrat-Regular
 			margin-top: 15px
 			letter-spacing: 1px
 
@@ -139,24 +134,20 @@ button.btn-sml.inverse
 	h2
 		line-height: 1.9em
 		font-size: 3em
-		font-family: Montserrat-SemiBold
 	img
 		margin: 
 			left: 2px
 			right: 2px
 
 .benefits
-	color: $white
 	.iconsmind
 		font-size: 50px
 
 .benefits__number
 	font-size: 48px
-	font-family: Montserrat-Bold
 	margin-top: 20px
 
 .tonnes
-	font-family: Montserrat-SemiBold
 	letter-spacing: .2em
 
 .paral-2
@@ -177,11 +168,6 @@ button.btn-sml.inverse
 		margin-top: 30px
 		&:hover
 			background-color: rgba(255, 255, 255,.2)
-		a
-			font-family: Montserrat-Bold
-		.light
-			font-family: Montserrat-light
-
 .offline
 	p
 		font-family: Montserrat-Light
@@ -200,7 +186,6 @@ button.btn-sml.inverse
 		font-size: 26px
 	.footer
 		font-size: 18px
-		font-family: Montserrat-SemiBold
 		p
 			font-size: 1em
 	.blockquote
@@ -210,8 +195,6 @@ button.btn-sml.inverse
 			letter-spacing: .8px
 .blog
 	span
-		color: $dark
-		text-transform: capitalize
 		a
 			font-size: 1em
 		.time
@@ -219,7 +202,6 @@ button.btn-sml.inverse
 			&:hover
 				color: $secondary
 	.rewie
-		font-family: Montserrat-Bold
 		.fa-comment-alt
 			margin-left: 10px
 			margin-right: 5px
@@ -254,15 +236,36 @@ button.btn-sml.inverse
 .container-fluid
 	max-width: 1200px
 
-span
-	color: $primary
+.footer
+	h5
+		letter-spacing: 4px
+	div
+		letter-spacing: 1px
+	.social
+		a
+			color: #666
+			display: inline-block
+			border-radius: 15px
+			padding-top: 5px
+			width: 30px
+			height: 30px
+			text-align: center
+			transition: all .3s ease
+			&:hover
+				background-color: $secondary
+				color: $white
+			.svg-inline--fa
+				width: 15px
+				height: 15px
+	.copy
+		font-size: 12px
+.ff-sb
 	font-family: Montserrat-SemiBold
-	text-transform: uppercase
-
-h2
+.ff-b
 	font-family: Montserrat-Bold
-
-
-
+.ff-l
+	font-family: Montserrat-Light
+.ff-xb
+	font-family: Montserrat-ExtraBold
 
 @import "media" // Always at the end
